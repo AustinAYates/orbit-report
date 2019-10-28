@@ -1,3 +1,7 @@
+.other-row {
+  background-color: lightgreen;
+}
+
 .sortable {
   cursor: pointer;
   color: #dd5;

@@ -24,4 +24,8 @@ export class OrbitListComponent implements OnInit {
        return 0;
     });
  }
+
+  otherRow(index: number): boolean {
+    return (index%2 === 0);
+  }
 }
